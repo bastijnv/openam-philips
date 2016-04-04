@@ -1,0 +1,178 @@
+.page-header, .page-header-min h3 {
+    border-bottom: 1px solid #2b2f31;
+}
+
+.am-panel-card:hover {
+    border-color: #486B64;
+}
+
+.am-panel-card:hover .card-icon-circle {
+    background-color: #7CCABA;
+}
+
+.dropdown-header {
+    font-size: inherit;
+}
+
+.btn-toolbar.page-toolbar {
+    border-color: #444;
+}
+
+body {
+    background: linear-gradient(-35deg,#5CACCC 0,#156096 65%);
+    margin-bottom: 100px;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #add3dd inset;
+    -webkit-text-fill-color: #333;
+}
+
+.philips-form fieldset {
+    max-width: 300px;
+    margin: 0 auto;
+    clear: both;
+}
+
+a.warning {
+    background-image: url('../images/warning.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90% 90%;
+    height: 27px;
+    width: 31px;
+    text-indent: -9999em;
+    position: absolute !important;
+    bottom: 15px !important;
+}
+
+#footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    color: #ffffff;
+    text-align: justify;
+    background-color: transparent;
+    border: none;
+    height: 100px;
+}
+
+
+#footer .container .center {
+    max-width: 680px;
+}
+
+#footer .container {
+    width: auto;
+    padding: 0 15px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .container > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+nav.text-center.clearfix.remember-forgot {
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+#footer a.readmanual {
+    background-image: url('../images/readmanual.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90% 90%;
+    height: 27px;
+    width: 36px;
+    text-indent: -9999em;
+    position: absolute !important;
+    bottom: 15px !important;
+    left: 50px !important;
+}
+
+.shield {
+    background-image: url('../images/philips_shield.svg');
+    background-repeat: no-repeat;
+    background-size: 193% 193%;
+    background-position: 50% 50%;
+    margin: 130px auto 50px;
+    height: 136px;
+    width: 105px;
+    text-indent: -9999em;
+}
+
+.form-group input, .form-group input {
+    width: 100%;
+    background-color: #add3dd;
+    border: none;
+    outline: none;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.form-group input:focus, .form-group input:active {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.form-group input.pt-button:hover {
+    color: #ffffff;
+    background-color: #156096;
+    border: none;
+    outline: none;
+}
+
+.form-group input.pt-button:focus {
+    outline: none !important;
+    border: none;
+    background-color: #1A2B66;
+}
+
+.form-group input.pt-button:active {
+    outline: none !important;
+    background-color: #1A2B66;
+}
+
+.form-group input.pt-button {
+    background-color: #163670;
+    color: #ffffff;
+    outline: none;
+}
+
+.form-group input.pt-button.full-width {
+    background-color: #163670;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+}
+
+label {
+    font-weight: normal;
+}
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top, #373c3e 0%, #1f2223 100%);
+    background-image: -o-linear-gradient(top, #373c3e 0%, #1f2223 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#373c3e), to(#1f2223));
+    background-image: linear-gradient(to bottom, #373c3e 0%, #1f2223 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff373c3e', endColorstr='#ff1f2223', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+#loginContent > li > a {
+    margin: -3px 0 -4px;
+}
